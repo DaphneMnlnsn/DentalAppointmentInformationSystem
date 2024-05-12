@@ -120,6 +120,8 @@ namespace DentalAppointmentInformationSystem
             sda.Fill(dt);
             if (dt.Rows[0][0].ToString() == "1")
             {
+                Variables v = new Variables();
+                v.getsetloggedIn = eNumTxtBox.Text;
                 Dashboard dshbrd = new Dashboard();
                 dshbrd.Show();
                 this.Hide();
