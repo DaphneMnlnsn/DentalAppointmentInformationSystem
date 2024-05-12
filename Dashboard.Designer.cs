@@ -87,16 +87,17 @@ namespace DentalAppointmentInformationSystem
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 9;
+            this.tableLayoutPanel1.RowCount = 10;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 178F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 89F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 101F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(345, 802);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
@@ -107,9 +108,9 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.logoutBtn.AutoSize = true;
             this.logoutBtn.Font = new System.Drawing.Font("Inter", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.Location = new System.Drawing.Point(104, 713);
+            this.logoutBtn.Location = new System.Drawing.Point(104, 681);
             this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(238, 89);
+            this.logoutBtn.Size = new System.Drawing.Size(238, 101);
             this.logoutBtn.TabIndex = 14;
             this.logoutBtn.Text = "Log out";
             this.logoutBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -118,7 +119,7 @@ namespace DentalAppointmentInformationSystem
             // 
             this.logoutPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.logoutPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.logout;
-            this.logoutPic.Location = new System.Drawing.Point(29, 735);
+            this.logoutPic.Location = new System.Drawing.Point(29, 709);
             this.logoutPic.Name = "logoutPic";
             this.logoutPic.Size = new System.Drawing.Size(43, 44);
             this.logoutPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -132,9 +133,9 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.servicesBtn.AutoSize = true;
             this.servicesBtn.Font = new System.Drawing.Font("Inter", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.servicesBtn.Location = new System.Drawing.Point(104, 624);
+            this.servicesBtn.Location = new System.Drawing.Point(104, 604);
             this.servicesBtn.Name = "servicesBtn";
-            this.servicesBtn.Size = new System.Drawing.Size(238, 89);
+            this.servicesBtn.Size = new System.Drawing.Size(238, 77);
             this.servicesBtn.TabIndex = 12;
             this.servicesBtn.Text = "List of Services";
             this.servicesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -147,7 +148,7 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.staffBtn.AutoSize = true;
             this.staffBtn.Font = new System.Drawing.Font("Inter", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffBtn.Location = new System.Drawing.Point(104, 535);
+            this.staffBtn.Location = new System.Drawing.Point(104, 515);
             this.staffBtn.Name = "staffBtn";
             this.staffBtn.Size = new System.Drawing.Size(238, 89);
             this.staffBtn.TabIndex = 11;
@@ -159,7 +160,7 @@ namespace DentalAppointmentInformationSystem
             // 
             this.staffPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.staffPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.staffs;
-            this.staffPic.Location = new System.Drawing.Point(23, 549);
+            this.staffPic.Location = new System.Drawing.Point(23, 529);
             this.staffPic.Name = "staffPic";
             this.staffPic.Size = new System.Drawing.Size(55, 61);
             this.staffPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +175,7 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ptntBtn.AutoSize = true;
             this.ptntBtn.Font = new System.Drawing.Font("Inter", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ptntBtn.Location = new System.Drawing.Point(104, 446);
+            this.ptntBtn.Location = new System.Drawing.Point(104, 426);
             this.ptntBtn.Name = "ptntBtn";
             this.ptntBtn.Size = new System.Drawing.Size(238, 89);
             this.ptntBtn.TabIndex = 8;
@@ -186,7 +187,7 @@ namespace DentalAppointmentInformationSystem
             // 
             this.patientPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.patientPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.patients;
-            this.patientPic.Location = new System.Drawing.Point(22, 460);
+            this.patientPic.Location = new System.Drawing.Point(22, 440);
             this.patientPic.Name = "patientPic";
             this.patientPic.Size = new System.Drawing.Size(57, 60);
             this.patientPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -201,7 +202,7 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.apptclndrBtn.AutoSize = true;
             this.apptclndrBtn.Font = new System.Drawing.Font("Inter", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.apptclndrBtn.Location = new System.Drawing.Point(104, 357);
+            this.apptclndrBtn.Location = new System.Drawing.Point(104, 337);
             this.apptclndrBtn.Name = "apptclndrBtn";
             this.apptclndrBtn.Size = new System.Drawing.Size(238, 89);
             this.apptclndrBtn.TabIndex = 6;
@@ -213,7 +214,7 @@ namespace DentalAppointmentInformationSystem
             // 
             this.clndrPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.clndrPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.calendar;
-            this.clndrPic.Location = new System.Drawing.Point(25, 378);
+            this.clndrPic.Location = new System.Drawing.Point(25, 358);
             this.clndrPic.Name = "clndrPic";
             this.clndrPic.Size = new System.Drawing.Size(50, 46);
             this.clndrPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -240,7 +241,7 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.emNameTxtBox.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.emNameTxtBox, 2);
-            this.emNameTxtBox.Font = new System.Drawing.Font("Inter Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emNameTxtBox.Font = new System.Drawing.Font("Inter Medium", 12F, System.Drawing.FontStyle.Bold);
             this.emNameTxtBox.Location = new System.Drawing.Point(3, 178);
             this.emNameTxtBox.Name = "emNameTxtBox";
             this.emNameTxtBox.Size = new System.Drawing.Size(339, 61);
@@ -268,9 +269,9 @@ namespace DentalAppointmentInformationSystem
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dshboardBtn.AutoSize = true;
             this.dshboardBtn.Font = new System.Drawing.Font("Inter", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dshboardBtn.Location = new System.Drawing.Point(104, 268);
+            this.dshboardBtn.Location = new System.Drawing.Point(104, 263);
             this.dshboardBtn.Name = "dshboardBtn";
-            this.dshboardBtn.Size = new System.Drawing.Size(238, 89);
+            this.dshboardBtn.Size = new System.Drawing.Size(238, 74);
             this.dshboardBtn.TabIndex = 3;
             this.dshboardBtn.Text = "Dashboard";
             this.dshboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -279,7 +280,7 @@ namespace DentalAppointmentInformationSystem
             // 
             this.dshbrdPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dshbrdPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.dashboard;
-            this.dshbrdPic.Location = new System.Drawing.Point(27, 288);
+            this.dshbrdPic.Location = new System.Drawing.Point(27, 276);
             this.dshbrdPic.Name = "dshbrdPic";
             this.dshbrdPic.Size = new System.Drawing.Size(46, 48);
             this.dshbrdPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -290,7 +291,7 @@ namespace DentalAppointmentInformationSystem
             // 
             this.srvcsPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.srvcsPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.services;
-            this.srvcsPic.Location = new System.Drawing.Point(24, 642);
+            this.srvcsPic.Location = new System.Drawing.Point(24, 616);
             this.srvcsPic.Name = "srvcsPic";
             this.srvcsPic.Size = new System.Drawing.Size(53, 53);
             this.srvcsPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
