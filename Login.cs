@@ -131,5 +131,9 @@ namespace DentalAppointmentInformationSystem
                 MessageBox.Show("Invalid username or password");
             }
         }
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }
