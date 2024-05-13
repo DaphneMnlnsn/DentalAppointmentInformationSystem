@@ -85,6 +85,7 @@ namespace DentalAppointmentInformationSystem
             {
                 passTxtbox.Text = "";
                 passTxtbox.ForeColor = Color.Black;
+                passTxtbox.PasswordChar = '•';
             }
         }
 
