@@ -16,5 +16,11 @@ namespace DentalAppointmentInformationSystem
         {
             InitializeComponent();
         }
+
+        private void Calendar_Load(object sender, EventArgs e)
+        {
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Normal;
+        }
     }
 }
