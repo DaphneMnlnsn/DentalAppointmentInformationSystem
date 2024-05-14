@@ -16,5 +16,10 @@ namespace DentalAppointmentInformationSystem
         {
             InitializeComponent();
         }
+
+        private void Staff_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }
