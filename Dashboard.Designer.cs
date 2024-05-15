@@ -35,20 +35,13 @@ namespace DentalAppointmentInformationSystem
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.logoutBtn = new System.Windows.Forms.Label();
-            this.logoutPic = new System.Windows.Forms.PictureBox();
             this.servicesBtn = new System.Windows.Forms.Label();
             this.staffBtn = new System.Windows.Forms.Label();
-            this.staffPic = new System.Windows.Forms.PictureBox();
             this.ptntBtn = new System.Windows.Forms.Label();
-            this.patientPic = new System.Windows.Forms.PictureBox();
             this.apptclndrBtn = new System.Windows.Forms.Label();
-            this.clndrPic = new System.Windows.Forms.PictureBox();
-            this.doctorPic = new System.Windows.Forms.PictureBox();
             this.emNameTxtBox = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dshboardBtn = new System.Windows.Forms.Label();
-            this.dshbrdPic = new System.Windows.Forms.PictureBox();
-            this.srvcsPic = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.wlcmLbl = new System.Windows.Forms.Label();
             this.dshbrdLbl = new System.Windows.Forms.Label();
@@ -66,7 +59,13 @@ namespace DentalAppointmentInformationSystem
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.clndrLbl = new System.Windows.Forms.Label();
+            this.monthLbl = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientPic)).BeginInit();
@@ -74,9 +73,6 @@ namespace DentalAppointmentInformationSystem
             ((System.ComponentModel.ISupportInitialize)(this.doctorPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dshbrdPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.srvcsPic)).BeginInit();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -136,10 +132,10 @@ namespace DentalAppointmentInformationSystem
             // 
             this.logoutPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.logoutPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.logout;
-            this.logoutPic.Location = new System.Drawing.Point(48, 568);
-            this.logoutPic.Margin = new System.Windows.Forms.Padding(22, 2, 3, 2);
+            this.logoutPic.Location = new System.Drawing.Point(54, 709);
+            this.logoutPic.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
             this.logoutPic.Name = "logoutPic";
-            this.logoutPic.Size = new System.Drawing.Size(38, 35);
+            this.logoutPic.Size = new System.Drawing.Size(43, 44);
             this.logoutPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoutPic.TabIndex = 13;
             this.logoutPic.TabStop = false;
@@ -178,10 +174,10 @@ namespace DentalAppointmentInformationSystem
             // 
             this.staffPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.staffPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.staffs;
-            this.staffPic.Location = new System.Drawing.Point(42, 423);
-            this.staffPic.Margin = new System.Windows.Forms.Padding(22, 2, 3, 2);
+            this.staffPic.Location = new System.Drawing.Point(48, 529);
+            this.staffPic.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
             this.staffPic.Name = "staffPic";
-            this.staffPic.Size = new System.Drawing.Size(49, 49);
+            this.staffPic.Size = new System.Drawing.Size(55, 61);
             this.staffPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.staffPic.TabIndex = 9;
             this.staffPic.TabStop = false;
@@ -206,10 +202,10 @@ namespace DentalAppointmentInformationSystem
             // 
             this.patientPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.patientPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.patients;
-            this.patientPic.Location = new System.Drawing.Point(41, 352);
-            this.patientPic.Margin = new System.Windows.Forms.Padding(22, 2, 3, 2);
+            this.patientPic.Location = new System.Drawing.Point(47, 440);
+            this.patientPic.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
             this.patientPic.Name = "patientPic";
-            this.patientPic.Size = new System.Drawing.Size(51, 48);
+            this.patientPic.Size = new System.Drawing.Size(57, 60);
             this.patientPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.patientPic.TabIndex = 7;
             this.patientPic.TabStop = false;
@@ -234,10 +230,10 @@ namespace DentalAppointmentInformationSystem
             // 
             this.clndrPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.clndrPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.calendar;
-            this.clndrPic.Location = new System.Drawing.Point(45, 287);
-            this.clndrPic.Margin = new System.Windows.Forms.Padding(22, 2, 3, 2);
+            this.clndrPic.Location = new System.Drawing.Point(50, 358);
+            this.clndrPic.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
             this.clndrPic.Name = "clndrPic";
-            this.clndrPic.Size = new System.Drawing.Size(44, 37);
+            this.clndrPic.Size = new System.Drawing.Size(50, 46);
             this.clndrPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.clndrPic.TabIndex = 5;
             this.clndrPic.TabStop = false;
@@ -248,10 +244,9 @@ namespace DentalAppointmentInformationSystem
             this.doctorPic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.tableLayoutPanel1.SetColumnSpan(this.doctorPic, 2);
             this.doctorPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.profile_icon;
-            this.doctorPic.Location = new System.Drawing.Point(78, 2);
-            this.doctorPic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.doctorPic.Location = new System.Drawing.Point(88, 3);
             this.doctorPic.Name = "doctorPic";
-            this.doctorPic.Size = new System.Drawing.Size(150, 138);
+            this.doctorPic.Size = new System.Drawing.Size(169, 172);
             this.doctorPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.doctorPic.TabIndex = 0;
             this.doctorPic.TabStop = false;
@@ -302,10 +297,10 @@ namespace DentalAppointmentInformationSystem
             // 
             this.dshbrdPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dshbrdPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.dashboard;
-            this.dshbrdPic.Location = new System.Drawing.Point(46, 221);
-            this.dshbrdPic.Margin = new System.Windows.Forms.Padding(22, 2, 3, 2);
+            this.dshbrdPic.Location = new System.Drawing.Point(52, 276);
+            this.dshbrdPic.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
             this.dshbrdPic.Name = "dshbrdPic";
-            this.dshbrdPic.Size = new System.Drawing.Size(41, 38);
+            this.dshbrdPic.Size = new System.Drawing.Size(46, 48);
             this.dshbrdPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dshbrdPic.TabIndex = 4;
             this.dshbrdPic.TabStop = false;
@@ -314,10 +309,10 @@ namespace DentalAppointmentInformationSystem
             // 
             this.srvcsPic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.srvcsPic.Image = global::DentalAppointmentInformationSystem.Properties.Resources.services;
-            this.srvcsPic.Location = new System.Drawing.Point(43, 493);
-            this.srvcsPic.Margin = new System.Windows.Forms.Padding(22, 2, 3, 2);
+            this.srvcsPic.Location = new System.Drawing.Point(49, 616);
+            this.srvcsPic.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
             this.srvcsPic.Name = "srvcsPic";
-            this.srvcsPic.Size = new System.Drawing.Size(47, 42);
+            this.srvcsPic.Size = new System.Drawing.Size(53, 53);
             this.srvcsPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.srvcsPic.TabIndex = 10;
             this.srvcsPic.TabStop = false;
@@ -386,54 +381,6 @@ namespace DentalAppointmentInformationSystem
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(892, 509);
             this.panel1.TabIndex = 14;
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.clndrLbl, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.monthLbl, 1, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(892, 56);
-            this.tableLayoutPanel3.TabIndex = 26;
-            // 
-            // clndrLbl
-            // 
-            this.clndrLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.clndrLbl.AutoSize = true;
-            this.clndrLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.clndrLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clndrLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(108)))), ((int)(((byte)(167)))));
-            this.clndrLbl.Location = new System.Drawing.Point(18, 0);
-            this.clndrLbl.Margin = new System.Windows.Forms.Padding(18, 0, 3, 0);
-            this.clndrLbl.Name = "clndrLbl";
-            this.clndrLbl.Size = new System.Drawing.Size(100, 56);
-            this.clndrLbl.TabIndex = 15;
-            this.clndrLbl.Text = "Calendar";
-            this.clndrLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // monthLbl
-            // 
-            this.monthLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.monthLbl.AutoSize = true;
-            this.monthLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.monthLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.monthLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(108)))), ((int)(((byte)(167)))));
-            this.monthLbl.Location = new System.Drawing.Point(771, 0);
-            this.monthLbl.Margin = new System.Windows.Forms.Padding(3, 0, 21, 0);
-            this.monthLbl.Name = "monthLbl";
-            this.monthLbl.Size = new System.Drawing.Size(100, 56);
-            this.monthLbl.TabIndex = 16;
-            this.monthLbl.Text = "Calendar";
-            this.monthLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
@@ -574,6 +521,53 @@ namespace DentalAppointmentInformationSystem
     "_____________________________";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // clndrLbl
+            // 
+            this.clndrLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.clndrLbl.AutoSize = true;
+            this.clndrLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.clndrLbl.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clndrLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(108)))), ((int)(((byte)(167)))));
+            this.clndrLbl.Location = new System.Drawing.Point(20, 0);
+            this.clndrLbl.Margin = new System.Windows.Forms.Padding(20, 0, 3, 0);
+            this.clndrLbl.Name = "clndrLbl";
+            this.clndrLbl.Size = new System.Drawing.Size(120, 70);
+            this.clndrLbl.TabIndex = 15;
+            this.clndrLbl.Text = "Calendar";
+            this.clndrLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // monthLbl
+            // 
+            this.monthLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.monthLbl.AutoSize = true;
+            this.monthLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.monthLbl.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(108)))), ((int)(((byte)(167)))));
+            this.monthLbl.Location = new System.Drawing.Point(859, 0);
+            this.monthLbl.Margin = new System.Windows.Forms.Padding(3, 0, 24, 0);
+            this.monthLbl.Name = "monthLbl";
+            this.monthLbl.Size = new System.Drawing.Size(120, 70);
+            this.monthLbl.TabIndex = 16;
+            this.monthLbl.Text = "Calendar";
+            this.monthLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.clndrLbl, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.monthLbl, 1, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1003, 70);
+            this.tableLayoutPanel3.TabIndex = 26;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -586,6 +580,7 @@ namespace DentalAppointmentInformationSystem
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(1559, 858);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -593,6 +588,12 @@ namespace DentalAppointmentInformationSystem
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoutPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientPic)).EndInit();
@@ -600,12 +601,6 @@ namespace DentalAppointmentInformationSystem
             ((System.ComponentModel.ISupportInitialize)(this.doctorPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dshbrdPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.srvcsPic)).EndInit();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
