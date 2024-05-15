@@ -41,6 +41,7 @@
             this.Text = "Staff";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Staff_FormClosing);
+            this.Load += new System.EventHandler(this.Staff_Load);
             this.ResumeLayout(false);
 
         }
