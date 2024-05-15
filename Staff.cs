@@ -24,7 +24,8 @@ namespace DentalAppointmentInformationSystem
 
         private void Staff_Load(object sender, EventArgs e)
         {
-
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Normal;
         }
     }
 }

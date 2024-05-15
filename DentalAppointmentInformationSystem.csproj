@@ -263,6 +263,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DAISdB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\search.png" />
+    <None Include="Resources\back.png" />
     <None Include="Resources\staffs.png" />
     <None Include="Resources\services.png" />
     <None Include="Resources\patients.png" />
